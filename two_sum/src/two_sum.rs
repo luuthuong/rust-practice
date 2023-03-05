@@ -17,8 +17,9 @@ impl TwoSumTrait for TwoSum {
         let mut map = HashMap::new();
         for (i, &num) in self.numbs.iter().enumerate() {
             let complement = self.target - num;
-            if let Some(&j) = map.get(&complement) {
-                return Some([j, i]);
+            if  map.contains_key(&complement) {
+                let value = map.get(&complement).unwrap();
+                return Some([*value, i]);
             }
             map.insert(num, i);
         }

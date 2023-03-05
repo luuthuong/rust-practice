@@ -7,10 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src/demo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/two_sum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/two_sum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/linked-list/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/demo/target" />
       <excludeFolder url="file://$MODULE_DIR$/src/two_sum/target" />
       <excludeFolder url="file://$MODULE_DIR$/two_sum/target" />
+      <excludeFolder url="file://$MODULE_DIR$/linked-list/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
